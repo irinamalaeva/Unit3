@@ -1,3 +1,5 @@
+package com.company;
+
 import java.util.Random;
 
 public class Unit3Task5 {
@@ -24,6 +26,22 @@ public class Unit3Task5 {
         }
         double average2 = sum2 / 5;
         System.out.println( "\n" + "average2 = " + average2);
+        boolean compare1 =  (average1 < average2);
+
+        boolean compare2 =  (average1 > average2);
+
+        boolean compare3 =  (average1 == average2);
+
+        if (compare1){
+            System.out.println(compare1 + ";  " + average2 +" more than  "+average1);
+        }
+        if (compare2){
+            System.out.println(compare2 + ";  " + average1 +" more than  "+average2 );
+        }
+        if (compare3){
+            System.out.println(compare3 + "; average2= " + average2 +" equal = " + "average1" + average1 );
+        }
+
     }
 
 }
