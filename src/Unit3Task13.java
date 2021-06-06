@@ -23,18 +23,20 @@ public class Unit3Task13 {
         for (int i = 0; i < array.length; i++) {
             if (array[i] > c) {
                 sum = sum + array[i];
-                counter = counter + 1;}
+                counter = counter + 1;
+            }
         }
         double average = sum / counter;
 
         boolean existence = true;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > c) {
-                existence = false;}
+                existence = false;
             }
-        if (existence ==false){
-        System.out.println("\n" + "average = " + average);}
-        else{
+        }
+        if (existence == false) {
+            System.out.println("\n" + "average = " + average);
+        } else {
             System.out.println("\n" + "no exist");
         }
 

@@ -12,19 +12,15 @@ public class Unit3Task6 {
         System.out.println();
 
         boolean compare = true;
-        for (int i = 0; i < array.length-1; i++) {
-            if (  array[i] >= array[i +1] )
-            {
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] >= array[i + 1]) {
                 compare = false;
                 break;
             }
         }
-        if (compare)
-        {
+        if (compare) {
             System.out.println("Strictly increasing sequence");
-        }
-        else
-        {
+        } else {
             System.out.println("Not increasing sequence");
         }
 

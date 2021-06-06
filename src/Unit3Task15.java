@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+
 public class Unit3Task15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,10 +15,10 @@ public class Unit3Task15 {
         System.out.println();
         // I do not think, that example below is appropriate, but it is working
         for (int i = 0; i < array.length; i++) {
-               if (i % 2 == 0) {
-                  int j = array[i];
-                System.out.print( j + " ");
-          }
+            if (i % 2 == 0) {
+                int j = array[i];
+                System.out.print(j + " ");
+            }
         }
 // Here is another one
         System.out.println();

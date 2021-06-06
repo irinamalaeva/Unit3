@@ -1,11 +1,11 @@
 public class Unit3Task1 {
-    public static void main (String[] args){
+    public static void main(String[] args) {
         int counter = 0;
-        for (int n = 2; n <=20; n +=2, counter ++ ){
+        for (int n = 2; n <= 20; n += 2, counter++) {
         }
-        System.out.print("total counter= " + counter );
+        System.out.print("total counter= " + counter);
 
-         System.out.println("\n");
+        System.out.println("\n");
 
         int array[] = new int[counter];
         int x = 2;
@@ -16,12 +16,12 @@ public class Unit3Task1 {
         }
         System.out.println("\n");
 
-            int y = 2;
+        int y = 2;
         for (int j = 0; j < counter; j++) {
-           array[j] = y;
+            array[j] = y;
             System.out.println(array[j] + "\n");
             y = array[j] + 2;
-          }
         }
     }
+}
 
