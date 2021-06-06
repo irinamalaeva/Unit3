@@ -11,9 +11,8 @@ public class Unit3Task3 {
                 counterEven++;
             }
             System.out.print(array[i] + " ");
-            System.out.println();
-
         }
+        System.out.println();
         System.out.println("\n" + " counter even= " + counterEven);
     }
 }

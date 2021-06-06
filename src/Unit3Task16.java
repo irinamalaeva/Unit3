@@ -14,15 +14,15 @@ public class Unit3Task16 {
         }
         System.out.println();
 
-        int arrayNull[] = new int[size];
-        for (int i = 0; i < arrayNull.length; i++) {
+        int arrayWithZerro[] = new int[size];
+        for (int i = 0; i < arrayWithZerro.length; i++) {
             if (i % 2 == 0) {
                 int change = array[i];
-                arrayNull[i] = change;
+                arrayWithZerro[i] = change;
             } else {
-                arrayNull[i] = 0;
+                arrayWithZerro[i] = 0;
             }
-            System.out.print(arrayNull[i] + " ");
+            System.out.print(arrayWithZerro[i] + " ");
         }
     }
 }

@@ -14,10 +14,8 @@ public class Unit3Task14 {
         }
         int min = 1000;
         for ( int i = 0; i < array.length; i++){
-             if (array[i]%2 != 0){
-                    if ( array[i] < min){
+             if (array[i]%2 != 0 && array[i] < min){
                         min = array[i]; }
-             }
         }
         boolean even = true;
         for ( int i = 0; i < array.length; i++) {
