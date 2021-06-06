@@ -12,13 +12,24 @@ public class Unit3Task14 {
             array[i] = random.nextInt(20);
             System.out.print(array[i] + " ");
         }
-        int min = 1;
+        int min = 1000;
         for ( int i = 0; i < array.length; i++){
              if (array[i]%2 != 0){
                     if ( array[i] < min){
                         min = array[i]; }
              }
         }
-        System.out.println("\n" + "min odd = " + min);
+        boolean even = true;
+        for ( int i = 0; i < array.length; i++) {
+            if (array[i] % 2 != 0) {
+                even = false;
+            }
+        }
+        if (even == false){
+        System.out.println("\n" + "min odd = " + min);}
+        else
+        {
+            System.out.println("\n" + "all elements are even");
+        }
     }
 }
